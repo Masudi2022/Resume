@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masud Salum Mrisho - Professional Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #002366;
+            --secondary-color: #f8f9fa;
+            --accent-color: #0056b3;
+        }
+        
+        .resume-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+        }
+        
+        .bg-primary-custom {
+            background-color: var(--primary-color) !important;
+        }
+        
+        .text-primary-custom {
+            color: var(--primary-color) !important;
+        }
+        
+        .border-primary-custom {
+            border-color: var(--primary-color) !important;
+        }
+        
+        .card {
+            border: 2px solid var(--primary-color);
+            border-radius: 15px;
+        }
+        
+        .section-title {
+            font-family: 'Georgia', serif;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+        
+        .skill-badge {
+            background-color: #e9ecef;
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+        }
+        
+        .progress-bar-custom {
+            background-color: var(--primary-color);
+        }
+        
+        .contact-link:hover {
+            color: var(--accent-color) !important;
+            text-decoration: underline;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="container resume-container my-5">
+        <div class="card shadow-lg">
+            <!-- Header Section with Profile Image -->
+            <div class="card-header bg-primary-custom text-white py-4">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-grow-1">
+                                <h1 class="mb-2 display-4" style="font-family: 'Georgia', serif; font-weight: 700;">Masud Salum Mrisho</h1>
+                                <p class="lead mb-0">Software Developer & AI Enthusiast</p>
+                                <p class="mb-0">Zanzibar, Tanzania</p>
+                            </div>
+                            <!-- Sample Image (Replace with your own) -->
+                            <img src="https://picsum.photos/150" alt="Profile Picture" class="profile-img ms-4 d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                        <ul class="list-unstyled">
+                            <li class="mb-2 d-flex align-items-center">
+                                <i class="fas fa-envelope me-2 fs-5"></i>
+                                <a href="mailto:salummasud54@gmail.com" class="text-white contact-link">salummasud54@gmail.com</a>
+                            </li>
+                            <li class="mb-2 d-flex align-items-center">
+                                <i class="fas fa-phone me-2 fs-5"></i>0777407574
+                            </li>
+                            <li class="mb-2 d-flex align-items-center">
+                                <i class="fas fa-globe me-2 fs-5"></i>
+                                <a href="https://www.sanifutech.com" class="text-white contact-link">sanifutech.com</a>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="fab fa-github me-2 fs-5"></i>
+                                <a href="https://github.com/Masudi2022/" class="text-white contact-link">github.com/Masudi2022</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-body py-4">
+                <!-- Professional Summary -->
+                <section class="mb-5">
+                    <h2 class="section-title text-primary-custom">Professional Summary</h2>
+                    <p class="lead mb-0" style="line-height: 1.6;">
+                        Technology-driven undergraduate student at The State University of Zanzibar with demonstrated expertise in full-stack development and artificial intelligence. Seeking to leverage technical proficiency and innovative mindset to contribute to cutting-edge projects in a professional software engineering role.
+                    </p>
+                </section>
+
+                <!-- Education Section -->
+                <section class="mb-5">
+                    <h2 class="section-title text-primary-custom">Education</h2>
+                    <div class="card mb-3 border-primary-custom">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-md-9">
+                                    <h4 class="mb-2">The State University of Zanzibar</h4>
+                                    <h5 class="text-muted mb-3">Bachelor of Information Technology Application and Management</h5>
+                                    <div class="d-flex flex-wrap gap-2 mb-2">
+                                        <span class="badge skill-badge rounded-pill">Software Engineering</span>
+                                        <span class="badge skill-badge rounded-pill">Web Development</span>
+                                        <span class="badge skill-badge rounded-pill">AI & Machine Learning</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-md-end">
+                                    <div class="text-muted">2019 - 2025</div>
+                                    <span class="badge bg-primary-custom mt-2 px-3 py-2">GPA: 3.8/4.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Technical Proficiencies -->
+                <section class="mb-5">
+                    <h2 class="section-title text-primary-custom">Technical Proficiencies</h2>
+                    <div class="row">
+                        <div class="col-lg-4 mb-4">
+                            <div class="card h-100 border-primary-custom">
+                                <div class="card-body">
+                                    <h5 class="d-flex align-items-center mb-3">
+                                        <i class="fas fa-code me-2 text-primary-custom fs-4"></i>
+                                        Languages & Frameworks
+                                    </h5>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge skill-badge rounded-pill">Python</span>
+                                        <span class="badge skill-badge rounded-pill">JavaScript</span>
+                                        <span class="badge skill-badge rounded-pill">HTML5</span>
+                                        <span class="badge skill-badge rounded-pill">CSS3</span>
+                                        <span class="badge skill-badge rounded-pill">Django</span>
+                                        <span class="badge skill-badge rounded-pill">React</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add other skill cards following the same pattern -->
+
+                    </div>
+                </section>
+
+                <!-- Professional Experience -->
+                <section class="mb-5">
+                    <h2 class="section-title text-primary-custom">Professional Experience</h2>
+                    <div class="card mb-4 border-primary-custom">
+                        <div class="card-body">
+                            <div class="row align-items-center mb-3">
+                                <div class="col-md-9">
+                                    <h4>SanifuTech – Founder & Lead Developer</h4>
+                                    <h5 class="text-muted">Technology Startup</h5>
+                                </div>
+                                <div class="col-md-3 text-md-end">
+                                    <div class="text-muted">2022 - Present</div>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="fas fa-project-diagram me-2 text-primary-custom"></i>
+                                    Spearheaded development of AI-powered healthtech solutions serving 500+ monthly users
+                                </li>
+                                <!-- Add other list items -->
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="card-footer bg-primary-custom text-white py-3">
+                <div class="row">
+                    <div class="col text-center">
+                        <small>
+                            References available upon request | 
+                            Portfolio: <a href="https://www.sanifutech.com" class="text-white contact-link">sanifutech.com</a> | 
+                            Last updated: <span id="currentDate"></span>
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Date Script -->
+    <script>
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
